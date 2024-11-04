@@ -9,7 +9,7 @@ function App () {
     </div>
   );
 }
-export default function App () {
+export default function () {
   return (
     <h1 className="text-3xl font-bold underline">
     Hello World!
