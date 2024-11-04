@@ -1,6 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Login from 'components/Login';
 
+function App () {
+  return (
+    <div className="bg-zinc-50 h-max min-h-screen w-full">
+      <Login />
+    </div>
+  );
+}
 export default function App () {
   return (
     <h1 className="text-3xl font-bold underline">
