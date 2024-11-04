@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Login from 'components/Login';
+import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+import Home from './Components/Home';
 
 function App () {
   return (
@@ -9,13 +11,13 @@ function App () {
     </div>
   );
 }
-export default function () {
-  return (
-    <h1 className="text-3xl font-bold underline">
-    Hello World!
-    </h1>
-  )
-}
+const router = createBrowserRouter([
+  { path: "/",
+    element: <Home />,
+  },
+  ]);
+
+
 /* function App() {
   return (
     <div className="App">
