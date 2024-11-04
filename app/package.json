@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "daisy": "^0.2.0",
     "tailwindcss": "^3.4.14"
   }
 }

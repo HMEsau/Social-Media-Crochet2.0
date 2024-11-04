@@ -1,7 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export default function App () {
+  return (
+    <h1 className="text-3xl font-bold underline">
+    Hello World!
+    </h1>
+  )
+}
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +27,6 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
-export default App;
+//export default App;
