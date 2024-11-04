@@ -4,6 +4,15 @@ import Login from 'components/Login';
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import Home from './Components/Home';
 
+const router = createBrowserRouter([
+  { path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  ]);
 function App () {
   return (
     <div className="bg-zinc-50 h-max min-h-screen w-full">
@@ -11,11 +20,7 @@ function App () {
     </div>
   );
 }
-const router = createBrowserRouter([
-  { path: "/",
-    element: <Home />,
-  },
-  ]);
+export default App;
 
 
 /* function App() {
